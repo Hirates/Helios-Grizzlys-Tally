@@ -1,6 +1,6 @@
 <div class="container pt-5">
     <div class="row text-center">
-        <h1 class="display-4">Welcome to Tally Arbiter</h1>
+        <h1 class="display-4">Willkommen auf unserem Tally Light Server</h1>
     </div>
     <div class="row mt-5 row-cols-1 row-cols-md-2 g-5 text-center">
         <div class="col">
@@ -14,7 +14,7 @@
                         {{netInterface.address}} ({{netInterface.name}})
                     </option>
                 </select>
-                <p>Scan the QR Code with your Phone or open one of the following URLs:</p>
+                <p>Scanne den den QR-Code oder öffne eine der folgenden URLs um auf den Web-Client zuzugreifen:</p>
                 <ul>
                     <li *ngFor="let net_interface of socketService.interfaces">
                         <a target="_blank" [href]="net_interface.url">{{net_interface.url}}</a>
@@ -32,14 +32,14 @@
                 <a class="btn btn-outline-primary" href="https://josephdadams.github.io/TallyArbiter/" target="_blank">Documentation Link</a>
             </div>
             <div class="rounded bg-light mt-5 p-3">
-                <h3><i class="fas fa-tasks"></i> Producer</h3>
-                <p>On the Producer page you get an overview of all connected devices and Tally clients.</p>
-                <a class="btn btn-outline-primary" routerLink="/producer">Producer Page</a>
+                <h3><i class="fas fa-tasks"></i> Regisseur Beriech</h3>
+                <p>Im Regisseur Beriech findest du einen Überblick über alle angeschlossenen Geräte und Tally-Clients.</p>
+                <a class="btn btn-outline-primary" routerLink="/producer">Regisseur Beriech</a>
             </div>
             <div class="rounded bg-light mt-5 p-3">
-                <h3><i class="fas fa-cogs"></i> Settings</h3>
-                <p>Here you can configure and setup all sources, devices, Tally clients and more.</p>
-                <a class="btn btn-outline-primary" routerLink="/settings">Settings</a>
+                <h3><i class="fas fa-cogs"></i> Einstellungen</h3>
+                <p>Hier kannst du alle Quellen, Geräte, Tally-Clients und mehr konfigurieren.</p>
+                <a class="btn btn-outline-primary" routerLink="/settings">Einstellungen</a>
             </div>
         </div>
     </div>

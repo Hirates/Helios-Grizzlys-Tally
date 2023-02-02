@@ -1,4 +1,0 @@
-python-socketio[client]<5
-RPi.GPIO
-zeroconf
-argparse
