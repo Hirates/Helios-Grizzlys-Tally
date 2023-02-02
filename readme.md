@@ -4,7 +4,7 @@
 ## Installation
 Installation instructions can be found [here](https://josephdadams.github.io/TallyArbiter/docs/installation/desktop-app).
 
-## Documentation
+## Dokumentation
 All documentation can be found [here](https://josephdadams.github.io/TallyArbiter/docs/intro).
 
 ## Contributing
